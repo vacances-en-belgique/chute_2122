@@ -180,12 +180,13 @@ font-style: normal;
 
 .menu-btn {
    position: center;
-   font-size: 0em;
+   font-size: 1em;
   color:black;
   display: flex;
 }
 
 .menu-container {
+  display: block;
    position: fixed;
    width: 100%;
   
