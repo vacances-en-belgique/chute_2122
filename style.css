@@ -180,7 +180,7 @@ font-style: normal;
 
 .menu-btn {
    position: center;
-   font-size: 1em;
+   font-size: 0em;
   color:black;
   display: flex;
 }
@@ -193,7 +193,7 @@ font-style: normal;
 
 
 .project-section {
-   height: 60%;
+   height: 50%;
    border-bottom: 1px solid #000;
 display: flex;
   justify-content: center;
@@ -271,7 +271,7 @@ display: flex;
 
 
 .social-section {
-   height: 10%;
+   height: 20%;
    border-bottom: 1px solid #000;
 display: flex;
   justify-content: center;
