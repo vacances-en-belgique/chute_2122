@@ -173,47 +173,31 @@ font-style: normal;
 @media (max-width: 767px) {
   
   body {
-   margin: 0;
-   padding: 0;
    font-family: "Afronaut";
+    display: flex;
 }
 
-* {
-   margin: 0;
-   padding: 0;
-}
-
-li, a {
-   list-style: none;
-   text-decoration: none;
-
-}
 
 .menu-btn {
    position: center;
-   top: 0;
-   right: 0;
    font-size: 1em;
   color:black;
-   text-transform: lowercase;
-   cursor: crosshair;
-
-
+  display: flex;
 }
 
 .menu-container {
    position: fixed;
-   width: 75%;
-   height: 100vh;
-   border-right: 1px solid #000;
+   width: 100%;
+  
 }
 
 
 .project-section {
    height: 60%;
    border-bottom: 1px solid #000;
-   display: center;
-   align-items: center;
+display: flex;
+  justify-content: center;
+
 }
 
 
@@ -221,65 +205,95 @@ li, a {
    font-family: "Afronaut";
    font-size: 0.8em;
      line-height: 1.7;
-   cursor: crosshair;
-     display: center;
-
+display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
 .mail-section {
    height: 15%;
-   border-bottom: 1px solid #000;
-   display: flex;
-   align-items: center;
+     border-bottom: 1px solid #000;
+display: flex;
+  justify-content: center;
 }
 
 .txt {
-   margin-left: 2.3em;
+  display: center;
    cursor: crosshair;
+  text-align: center;
+    margin: 0 auto;
+
 }
 
 .txt p {
-   font-size: 0.6em;
+  font-family: "Afronaut";
+   font-size: 0.8em;
+     line-height: 1.7;
+display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mail-section .txt p:hover {
    font-style: italic;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .presentation-section {
    height: 15%;
    border-bottom: 1px solid #000;
-   display: flex;
-   align-items: center;
+display: flex;
+  justify-content: center;
 }
 
 .txt {
-  font-family: "neue-haas-grotesk-text", sans-serif;
-font-weight: 400;
-font-style: normal;
-   margin-left: 2.3em;
-   cursor: crosshair;
+ font-family: "Afronaut";
+   font-size: 0.8em;
+     line-height: 1.7;
+display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .txt p {
   
-   font-size: 0.6em;
+    font-family: "Afronaut";
+   font-size: 0.8em;
+     line-height: 1.7;
+display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
 .social-section {
    height: 10%;
-   display: flex;
-   align-items: center;
+   border-bottom: 1px solid #000;
+display: flex;
+  justify-content: center;
 }
 
 .social-section .txt p {
-   font-size: 0.6em;
+  font-family: "Afronaut";
+   font-size: 0.8em;
+     line-height: 1.7;
+display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-section .txt p span:hover {
-   font-style: italic;
+    font-family: "Afronaut";
+   font-size: 0.8em;
+     line-height: 1.7;
+display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 html {
@@ -293,11 +307,14 @@ html {
   transform: translate(-50%, -50%);
   z-index: 9999;
   display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #lightbox img {
-  max-width: 700px;
-  max-height: 700px;
+  max-width: 400px;
+  max-height: 400px;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -307,12 +324,17 @@ html {
 
 .custom-font {
 font-family: "altesse-std-24pt", sans-serif;
-     font-size: 2.6em;
-font-weight: 400;
-font-style: normal;
+   font-size: 2em;
+     line-height: 1.7;
+display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mot-important {
     font-size: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
