@@ -179,10 +179,11 @@ font-style: normal;
 
 
 .menu-btn {
-   position: center;
    font-size: 1em;
   color:black;
   display: flex;
+   writing-mode: vertical-rl;
+  text-orientation: sideways;
 }
 
 .menu-container {
@@ -194,21 +195,24 @@ font-style: normal;
 
 
 .project-section {
-   height: 50%;
+   height: 40%;
    border-bottom: 1px solid #000;
 display: flex;
   justify-content: center;
+    margin-top:16px;
+
 
 }
 
 
 .project-section ul > li {
    font-family: "Afronaut";
-   font-size: 0.8em;
-     line-height: 1.7;
+   font-size: 0.6em;
+     line-height: 1.4;
 display: flex;
   justify-content: center;
   align-items: center;
+  
 
 }
 
@@ -272,7 +276,7 @@ display: flex;
 
 
 .social-section {
-   height: 20%;
+   height: 30%;
    border-bottom: 1px solid #000;
 display: flex;
   justify-content: center;
@@ -338,4 +342,3 @@ display: flex;
   justify-content: center;
   align-items: center;
 }
-
