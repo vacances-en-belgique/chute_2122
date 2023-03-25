@@ -1,22 +1,12 @@
 
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Chute 2122, une exposition de Tristán Rasson</title>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="shortcut icon" type="image/png" href="https://static.wixstatic.com/media/e9f423_3fb37c7d3ec94a44a3051fa538987291~mv2.png/v1/fill/w_45,h_45,al_c,lg_1,q_85,enc_auto/favicon_edited.png"/>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Brutalist Style Menu</title>
+   <title>Chute 2122, une exposition de Tristán Rasson</title>
+    <link rel="shortcut icon" type="image/png" href="https://static.wixstatic.com/media/e9f423_3fb37c7d3ec94a44a3051fa538987291~mv2.png/v1/fill/w_45,h_45,al_c,lg_1,q_85,enc_auto/favicon_edited.png"/>
    <!-- stylesheet -->
    <link rel="stylesheet" href="stylesheet.css">
    <!-- google fonts -->
@@ -28,6 +18,50 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 </head>
 <body>
+   <div class="loading-screen">
+      <div class="bars-container">
+         <div class="bar bar-01"></div>
+         <div class="bar bar-02"></div>
+         <div class="bar bar-03"></div>
+         <div class="bar bar-04"></div>
+         <div class="bar bar-05"></div>
+         <div class="bar bar-06"></div>
+         <div class="bar bar-07"></div>
+         <div class="bar bar-08"></div>
+         <div class="bar bar-09"></div>
+         <div class="bar bar-10"></div>
+         <div class="bar bar-11"></div>
+         <div class="bar bar-12"></div>
+         <div class="bar bar-13"></div>
+         <div class="bar bar-14"></div>
+         <div class="bar bar-15"></div>
+         <div class="bar bar-16"></div>
+         <div class="bar bar-17"></div>
+         <div class="bar bar-18"></div>
+         <div class="bar bar-19"></div>
+         <div class="bar bar-20"></div>
+         <div class="bar bar-21"></div>
+         <div class="bar bar-22"></div>
+         <div class="bar bar-23"></div>
+         <div class="bar bar-24"></div>
+         <div class="bar bar-25"></div>
+      </div>
+      <div class="loader">
+         <div class="loader-txt"></div>
+      </div>
+     <script>
+      TweenMax.to(".loader", 2, {
+         opacity: 0,
+         ease: Expo.easeOut,
+         delay: 2.7
+      });
+
+      TweenMax.staggerTo(".bar", 0.3, {
+         height: "0%",
+         ease: Power1.easeIn,
+         delay: 3.5
+      }, 0.015);
+   </script>
    <div class="wrapper">
       <div class="menu-btn">chute 2122<br><span class="mot-important">une exposition de tristán rasson</span></div>
       <div class="menu-container">
@@ -38,12 +72,12 @@
   <li id="botasolar"><span>botasolar</span></li>
                <li id="flawed"><span>flawed</span></li>
                <li id="murmures"><span>murmures</span></li>
-               <li id="luz"><span>d'en haut</span></li>
+               <li id="luz"><span>luz</span></li>
               <li id="crane"><span>le crâne</span></li>
                <li id="medusa"><span>médusa</span></li>
                <li id="chute"><span>la chute</span></li>
                <li id="souriez"><span>souriez</span></li>
-               <li id="tunnel"><span>le tunnel</span></li>
+               <li id="tunnel"><span>le tunnel de la mort</span></li>
               <li id="bienvenue"><span>bienvenue en 2122</span></li>
                <li id="moche"><span>vue sur vide</span></li>
                <li id="proprio"><span>changement de propriétaire</span></li>
@@ -91,10 +125,5 @@
          t1.reversed(!t1.reversed());
       });
    </script>
-</body>
-</html>
-<!-- partial -->
-  <script  src="./script.js"></script>
-
 </body>
 </html>
